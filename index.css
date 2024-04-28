@@ -200,7 +200,7 @@ header .menu{
 }
 .box {
     height: 250px;
-    width: 200px;
+    width: 150px;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
@@ -263,4 +263,27 @@ header .menu{
     justify-content:center ;
     text-align: center;
     margin-top: 100px;
+}
+
+.footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center align text */
+}
+
+.footer-text p {
+    margin: 0; /* Remove default margin for paragraph */
+}
+
+.footer-iconTop {
+    position: fixed; /* Fix position on the screen */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+}
+
+.footer-iconTop a {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline from link */
 }
